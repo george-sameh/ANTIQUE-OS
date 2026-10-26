@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'RetroPC';
+    src: url('fonts/Perfect-DOS-VGA-437.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'RetroPC', monospace;
+    background: rgb(15, 25, 15);
+}
+
+.system-main{
+    box-shadow: 2px 2px 5px 5px rgba(144, 238, 144, 0.5);
+    border: 2px solid lightgreen;
+    border-radius: 10px
+}
+
+.system-main hr{
+    border: 1px solid lightgreen;
+}
+
+.system-header{
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.system-header h1{
+    color: lightgreen;
+}
+
+.system-header h2{
+    color:gray
+}
+
+.system-body{
+    background: rgba(0, 0, 0, 0.5);
+    color: lightgreen;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid rgba(69, 123, 69, 0.5);
+    border-radius: 3px;
+}
+
+.input-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.input-group label {
+    color: lightgreen;
+    white-space: nowrap;
+    line-height: 1.5;
+}
+
+.input-group textarea {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: lightgreen;
+    font-family: 'RetroPC', monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    resize: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
